@@ -1,0 +1,1 @@
+<?phpnamespace common\models\system;use Yii;class ErrorCode{        public function getSysLogCode()    {        return [            '100001'=>'微信认证授权错误',            '100002'=>'微信获取用户信息失败',             '100003'=>'微信用户信息保存失败',              '100004'=>'微信用户信息保存意外错误-严重级别',            ];    }    }

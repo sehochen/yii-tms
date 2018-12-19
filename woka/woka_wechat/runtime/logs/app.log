@@ -1,0 +1,948 @@
+2018-06-06 10:45:20 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: content' in D:\_qiyo\_qingshe\trunk\woka\woka_wechat\components\WCOptionBase.php:22
+Stack trace:
+#0 D:\_qiyo\_qingshe\trunk\woka\wokaextend\wechat\Wechat.php(89): wechat\components\CWechatResponse::switchType()
+#1 D:\_qiyo\_qingshe\trunk\woka\woka_wechat\controllers\MainWechatController.php(35): wokaextend\wechat\wechat->run()
+#2 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\InlineAction.php(55): wechat\controllers\MainWechatController->actionIndex()
+#3 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#4 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#5 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#6 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction()
+#7 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#8 D:\_qiyo\_qingshe\trunk\woka\web\wechat.php(18): yii\base\Application->run()
+#9 {main}
+2018-06-06 10:45:20 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'n3h6lingghts5c26manlk3nj32'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.qingshe.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=n3h6lingghts5c26manlk3nj32'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Job\\php5.5;D:\\Job\\php5.5\\ext;D:\\Job\\mysql5\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;D:\\Node\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.qingshe.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.qingshe.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/_qiyo/_qingshe/trunk/woka/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/_qiyo/_qingshe/trunk/woka/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/_qiyo/_qingshe/trunk/woka/web/wechat.php'
+    'REMOTE_PORT' => '4116'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wechat.php/main-wechat'
+    'SCRIPT_NAME' => '/wechat.php'
+    'PATH_INFO' => '/main-wechat'
+    'PATH_TRANSLATED' => 'D:\\_qiyo\\_qingshe\\trunk\\woka\\web\\main-wechat'
+    'PHP_SELF' => '/wechat.php/main-wechat'
+    'REQUEST_TIME_FLOAT' => 1528253120.562
+    'REQUEST_TIME' => 1528253120
+]
+2018-06-06 10:45:36 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: content' in D:\_qiyo\_qingshe\trunk\woka\woka_wechat\components\WCOptionBase.php:22
+Stack trace:
+#0 D:\_qiyo\_qingshe\trunk\woka\wokaextend\wechat\Wechat.php(89): wechat\components\CWechatResponse::switchType()
+#1 D:\_qiyo\_qingshe\trunk\woka\woka_wechat\controllers\MainWechatController.php(35): wokaextend\wechat\wechat->run()
+#2 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\InlineAction.php(55): wechat\controllers\MainWechatController->actionIndex()
+#3 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#4 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#5 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#6 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction()
+#7 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#8 D:\_qiyo\_qingshe\trunk\woka\web\wechat.php(18): yii\base\Application->run()
+#9 {main}
+2018-06-06 10:45:36 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'n3h6lingghts5c26manlk3nj32'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.qingshe.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=n3h6lingghts5c26manlk3nj32'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Job\\php5.5;D:\\Job\\php5.5\\ext;D:\\Job\\mysql5\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;D:\\Node\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.qingshe.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.qingshe.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/_qiyo/_qingshe/trunk/woka/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/_qiyo/_qingshe/trunk/woka/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/_qiyo/_qingshe/trunk/woka/web/wechat.php'
+    'REMOTE_PORT' => '4118'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wechat.php/main-wechat'
+    'SCRIPT_NAME' => '/wechat.php'
+    'PATH_INFO' => '/main-wechat'
+    'PATH_TRANSLATED' => 'D:\\_qiyo\\_qingshe\\trunk\\woka\\web\\main-wechat'
+    'PHP_SELF' => '/wechat.php/main-wechat'
+    'REQUEST_TIME_FLOAT' => 1528253136.866
+    'REQUEST_TIME' => 1528253136
+]
+2018-06-06 10:52:13 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'wechat\controllers\wechat' not found' in D:\_qiyo\_qingshe\trunk\woka\woka_wechat\controllers\MainWechatController.php:22
+Stack trace:
+#0 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#1 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#2 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#3 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction()
+#4 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#5 D:\_qiyo\_qingshe\trunk\woka\web\wechat.php(18): yii\base\Application->run()
+#6 {main}
+2018-06-06 10:52:13 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'n3h6lingghts5c26manlk3nj32'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.qingshe.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=n3h6lingghts5c26manlk3nj32'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Job\\php5.5;D:\\Job\\php5.5\\ext;D:\\Job\\mysql5\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;D:\\Node\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.qingshe.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.qingshe.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/_qiyo/_qingshe/trunk/woka/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/_qiyo/_qingshe/trunk/woka/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/_qiyo/_qingshe/trunk/woka/web/wechat.php'
+    'REMOTE_PORT' => '4403'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wechat.php/main-wechat'
+    'SCRIPT_NAME' => '/wechat.php'
+    'PATH_INFO' => '/main-wechat'
+    'PATH_TRANSLATED' => 'D:\\_qiyo\\_qingshe\\trunk\\woka\\web\\main-wechat'
+    'PHP_SELF' => '/wechat.php/main-wechat'
+    'REQUEST_TIME_FLOAT' => 1528253533.06
+    'REQUEST_TIME' => 1528253533
+]
+2018-06-06 10:52:36 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: wchatToken' in D:\_qiyo\_qingshe\trunk\woka\wokaextend\wechat\config\WechatConfig.php:40
+Stack trace:
+#0 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\InlineAction.php(55): wechat\controllers\MainWechatController->actionIndex()
+#1 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#2 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#3 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#4 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction()
+#5 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#6 D:\_qiyo\_qingshe\trunk\woka\web\wechat.php(18): yii\base\Application->run()
+#7 {main}
+2018-06-06 10:52:35 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'n3h6lingghts5c26manlk3nj32'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.qingshe.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=n3h6lingghts5c26manlk3nj32'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Job\\php5.5;D:\\Job\\php5.5\\ext;D:\\Job\\mysql5\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;D:\\Node\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.qingshe.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.qingshe.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/_qiyo/_qingshe/trunk/woka/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/_qiyo/_qingshe/trunk/woka/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/_qiyo/_qingshe/trunk/woka/web/wechat.php'
+    'REMOTE_PORT' => '4407'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wechat.php/main-wechat'
+    'SCRIPT_NAME' => '/wechat.php'
+    'PATH_INFO' => '/main-wechat'
+    'PATH_TRANSLATED' => 'D:\\_qiyo\\_qingshe\\trunk\\woka\\web\\main-wechat'
+    'PHP_SELF' => '/wechat.php/main-wechat'
+    'REQUEST_TIME_FLOAT' => 1528253555.718
+    'REQUEST_TIME' => 1528253555
+]
+2018-06-06 10:53:11 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: wchatToken' in D:\_qiyo\_qingshe\trunk\woka\wokaextend\wechat\config\WechatConfig.php:40
+Stack trace:
+#0 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\InlineAction.php(55): wechat\controllers\MainWechatController->actionIndex()
+#1 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#2 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#3 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#4 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction()
+#5 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#6 D:\_qiyo\_qingshe\trunk\woka\web\wechat.php(18): yii\base\Application->run()
+#7 {main}
+2018-06-06 10:53:10 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'n3h6lingghts5c26manlk3nj32'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.qingshe.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=n3h6lingghts5c26manlk3nj32'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Job\\php5.5;D:\\Job\\php5.5\\ext;D:\\Job\\mysql5\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;D:\\Node\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.qingshe.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.qingshe.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/_qiyo/_qingshe/trunk/woka/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/_qiyo/_qingshe/trunk/woka/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/_qiyo/_qingshe/trunk/woka/web/wechat.php'
+    'REMOTE_PORT' => '4410'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wechat.php/main-wechat'
+    'SCRIPT_NAME' => '/wechat.php'
+    'PATH_INFO' => '/main-wechat'
+    'PATH_TRANSLATED' => 'D:\\_qiyo\\_qingshe\\trunk\\woka\\web\\main-wechat'
+    'PHP_SELF' => '/wechat.php/main-wechat'
+    'REQUEST_TIME_FLOAT' => 1528253590.827
+    'REQUEST_TIME' => 1528253590
+]
+2018-06-06 10:53:13 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: wchatToken' in D:\_qiyo\_qingshe\trunk\woka\wokaextend\wechat\config\WechatConfig.php:40
+Stack trace:
+#0 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\InlineAction.php(55): wechat\controllers\MainWechatController->actionIndex()
+#1 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#2 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#3 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#4 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction()
+#5 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#6 D:\_qiyo\_qingshe\trunk\woka\web\wechat.php(18): yii\base\Application->run()
+#7 {main}
+2018-06-06 10:53:13 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'n3h6lingghts5c26manlk3nj32'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.qingshe.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=n3h6lingghts5c26manlk3nj32'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Job\\php5.5;D:\\Job\\php5.5\\ext;D:\\Job\\mysql5\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;D:\\Node\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.qingshe.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.qingshe.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/_qiyo/_qingshe/trunk/woka/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/_qiyo/_qingshe/trunk/woka/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/_qiyo/_qingshe/trunk/woka/web/wechat.php'
+    'REMOTE_PORT' => '4411'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wechat.php/main-wechat'
+    'SCRIPT_NAME' => '/wechat.php'
+    'PATH_INFO' => '/main-wechat'
+    'PATH_TRANSLATED' => 'D:\\_qiyo\\_qingshe\\trunk\\woka\\web\\main-wechat'
+    'PHP_SELF' => '/wechat.php/main-wechat'
+    'REQUEST_TIME_FLOAT' => 1528253593.013
+    'REQUEST_TIME' => 1528253593
+]
+2018-08-09 14:14:24 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'common\models\common\SimQrcode' not found' in D:\_qiyo\_qingshe\trunk\woka\woka_wechat\components\CWechatDo.php:30
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-08-09 14:14:24 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Job\\php5.5;D:\\Job\\php5.5\\ext;D:\\Job\\mysql5\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;D:\\Node\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Users\\Lussen\\AppData\\Roaming\\npm;C:\\Users\\Lussen\\AppData\\Local\\Programs\\Fiddler'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'C:/phpStudy/PHPTutorial/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '1792'
+    'PATH_TRANSLATED' => 'D:\\_qiyo\\_qingshe\\trunk\\woka\\web\\index.php'
+    'PATH_INFO' => '/'
+    'SCRIPT_NAME' => '/wechat.php'
+    'REQUEST_URI' => '/wechat.php/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '9649'
+    'SCRIPT_FILENAME' => 'D:/_qiyo/_qingshe/trunk/woka/web/wechat.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/_qiyo/_qingshe/trunk/woka/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/_qiyo/_qingshe/trunk/woka/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'weyu.iqiyo.top'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'weyu.iqiyo.top'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/wechat.php/'
+    'REQUEST_TIME_FLOAT' => 1533795264.3617
+    'REQUEST_TIME' => 1533795264
+]
+2018-09-04 15:56:52 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'wechat\controllers\TextTController' in file: D:\_qiyo\_qingshe\trunk\woka/woka_wechat/controllers/TextTController.php. Namespace missing?' in D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('wechat\\controll...')
+#1 [internal function]: spl_autoload_call('wechat\\controll...')
+#2 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\Module.php(562): class_exists('wechat\\controll...')
+#3 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\Module.php(520): yii\base\Module->createControllerByID('text-t')
+#4 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\Module.php(448): yii\base\Module->createController('text-t')
+#5 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('text-t', Array)
+#6 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\_qiyo\_qingshe\trunk\woka\web\wechat.php(18): yii\base\Application->run()
+#8 {main}
+2018-09-04 15:56:52 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '4922e975078e6076c9dc5b6a0eb3bcd76fa1295e889bf660fc0090cee86bd510a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ytroYWUYMQirkgEtdqHNVdYyJeEukMKw\";}'
+    'PHPSESSID' => 'hsiest0ekrcvg85qfvlmqgmc40'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'weyu.iqiyo.top'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=4922e975078e6076c9dc5b6a0eb3bcd76fa1295e889bf660fc0090cee86bd510a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ytroYWUYMQirkgEtdqHNVdYyJeEukMKw%22%3B%7D; PHPSESSID=hsiest0ekrcvg85qfvlmqgmc40'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Job\\php5.5;D:\\Job\\php5.5\\ext;D:\\Job\\mysql5\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;D:\\Node\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\Jason\\Java\\jdk1.8.0_181\\bin;E:\\Jason\\Java\\jdk1.8.0_181\\jre\\bin;C:\\Users\\Lussen\\AppData\\Roaming\\npm;C:\\Users\\Lussen\\AppData\\Local\\Programs\\Fiddler'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'weyu.iqiyo.top'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/_qiyo/_qingshe/trunk/woka/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/_qiyo/_qingshe/trunk/woka/web'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'SCRIPT_FILENAME' => 'D:/_qiyo/_qingshe/trunk/woka/web/wechat.php'
+    'REMOTE_PORT' => '13097'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wechat.php/text-t'
+    'SCRIPT_NAME' => '/wechat.php'
+    'PATH_INFO' => '/text-t'
+    'PATH_TRANSLATED' => 'D:\\_qiyo\\_qingshe\\trunk\\woka\\web\\text-t'
+    'PHP_SELF' => '/wechat.php/text-t'
+    'REQUEST_TIME_FLOAT' => 1536047812.034
+    'REQUEST_TIME' => 1536047812
+]
+2018-09-04 15:57:06 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Missing argument 1 for wokaextend\wechat\AccessToken::getAccessToken(), called in D:\_qiyo\_qingshe\trunk\woka\wokaextend\wechat\templatemessage.php on line 53 and defined' in D:\_qiyo\_qingshe\trunk\woka\wokaextend\wechat\AccessToken.php:12
+Stack trace:
+#0 D:\_qiyo\_qingshe\trunk\woka\wokaextend\wechat\AccessToken.php(12): yii\base\ErrorHandler->handleError(2, 'Missing argumen...', 'D:\\_qiyo\\_qings...', 12, Array)
+#1 D:\_qiyo\_qingshe\trunk\woka\wokaextend\wechat\templatemessage.php(53): wokaextend\wechat\AccessToken::getAccessToken()
+#2 D:\_qiyo\_qingshe\trunk\woka\woka_wechat\components\template\Template.php(30): wokaextend\wechat\TemplateMessage::sendTemplateMessage(Array, 'oPSaK1ZxITRycWq...', 'mxqMn8UQuKjrMXK...', 'http://weyu.iqi...', '#FF0000')
+#3 D:\_qiyo\_qingshe\trunk\woka\woka_wechat\controllers\TextTController.php(15): wechat\components\template\Template->sendThreeJoin('oPSaK1ZxITRycWq...', 'goods', 3, 0.56)
+#4 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\Controller.php(220): wechat\controllers\TextTController->actions()
+#5 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\Controller.php(123): yii\base\Controller->createAction('')
+#6 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#7 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('text-t', Array)
+#8 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\_qiyo\_qingshe\trunk\woka\web\wechat.php(18): yii\base\Application->run()
+#10 {main}
+2018-09-04 15:57:05 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '4922e975078e6076c9dc5b6a0eb3bcd76fa1295e889bf660fc0090cee86bd510a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ytroYWUYMQirkgEtdqHNVdYyJeEukMKw\";}'
+    'PHPSESSID' => 'hsiest0ekrcvg85qfvlmqgmc40'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'weyu.iqiyo.top'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=4922e975078e6076c9dc5b6a0eb3bcd76fa1295e889bf660fc0090cee86bd510a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ytroYWUYMQirkgEtdqHNVdYyJeEukMKw%22%3B%7D; PHPSESSID=hsiest0ekrcvg85qfvlmqgmc40'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Job\\php5.5;D:\\Job\\php5.5\\ext;D:\\Job\\mysql5\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;D:\\Node\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\Jason\\Java\\jdk1.8.0_181\\bin;E:\\Jason\\Java\\jdk1.8.0_181\\jre\\bin;C:\\Users\\Lussen\\AppData\\Roaming\\npm;C:\\Users\\Lussen\\AppData\\Local\\Programs\\Fiddler'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'weyu.iqiyo.top'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/_qiyo/_qingshe/trunk/woka/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/_qiyo/_qingshe/trunk/woka/web'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'SCRIPT_FILENAME' => 'D:/_qiyo/_qingshe/trunk/woka/web/wechat.php'
+    'REMOTE_PORT' => '13124'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wechat.php/text-t'
+    'SCRIPT_NAME' => '/wechat.php'
+    'PATH_INFO' => '/text-t'
+    'PATH_TRANSLATED' => 'D:\\_qiyo\\_qingshe\\trunk\\woka\\web\\text-t'
+    'PHP_SELF' => '/wechat.php/text-t'
+    'REQUEST_TIME_FLOAT' => 1536047825.937
+    'REQUEST_TIME' => 1536047825
+]
+2018-09-04 15:57:08 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Missing argument 1 for wokaextend\wechat\AccessToken::getAccessToken(), called in D:\_qiyo\_qingshe\trunk\woka\wokaextend\wechat\templatemessage.php on line 53 and defined' in D:\_qiyo\_qingshe\trunk\woka\wokaextend\wechat\AccessToken.php:12
+Stack trace:
+#0 D:\_qiyo\_qingshe\trunk\woka\wokaextend\wechat\AccessToken.php(12): yii\base\ErrorHandler->handleError(2, 'Missing argumen...', 'D:\\_qiyo\\_qings...', 12, Array)
+#1 D:\_qiyo\_qingshe\trunk\woka\wokaextend\wechat\templatemessage.php(53): wokaextend\wechat\AccessToken::getAccessToken()
+#2 D:\_qiyo\_qingshe\trunk\woka\woka_wechat\components\template\Template.php(30): wokaextend\wechat\TemplateMessage::sendTemplateMessage(Array, 'oPSaK1ZxITRycWq...', 'mxqMn8UQuKjrMXK...', 'http://weyu.iqi...', '#FF0000')
+#3 D:\_qiyo\_qingshe\trunk\woka\woka_wechat\controllers\TextTController.php(15): wechat\components\template\Template->sendThreeJoin('oPSaK1ZxITRycWq...', 'goods', 3, 0.56)
+#4 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\Controller.php(220): wechat\controllers\TextTController->actions()
+#5 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\Controller.php(123): yii\base\Controller->createAction('')
+#6 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#7 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('text-t', Array)
+#8 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\_qiyo\_qingshe\trunk\woka\web\wechat.php(18): yii\base\Application->run()
+#10 {main}
+2018-09-04 15:57:08 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '4922e975078e6076c9dc5b6a0eb3bcd76fa1295e889bf660fc0090cee86bd510a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ytroYWUYMQirkgEtdqHNVdYyJeEukMKw\";}'
+    'PHPSESSID' => 'hsiest0ekrcvg85qfvlmqgmc40'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'weyu.iqiyo.top'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=4922e975078e6076c9dc5b6a0eb3bcd76fa1295e889bf660fc0090cee86bd510a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ytroYWUYMQirkgEtdqHNVdYyJeEukMKw%22%3B%7D; PHPSESSID=hsiest0ekrcvg85qfvlmqgmc40'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Job\\php5.5;D:\\Job\\php5.5\\ext;D:\\Job\\mysql5\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;D:\\Node\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\Jason\\Java\\jdk1.8.0_181\\bin;E:\\Jason\\Java\\jdk1.8.0_181\\jre\\bin;C:\\Users\\Lussen\\AppData\\Roaming\\npm;C:\\Users\\Lussen\\AppData\\Local\\Programs\\Fiddler'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'weyu.iqiyo.top'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/_qiyo/_qingshe/trunk/woka/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/_qiyo/_qingshe/trunk/woka/web'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'SCRIPT_FILENAME' => 'D:/_qiyo/_qingshe/trunk/woka/web/wechat.php'
+    'REMOTE_PORT' => '13125'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wechat.php/text-t'
+    'SCRIPT_NAME' => '/wechat.php'
+    'PATH_INFO' => '/text-t'
+    'PATH_TRANSLATED' => 'D:\\_qiyo\\_qingshe\\trunk\\woka\\web\\text-t'
+    'PHP_SELF' => '/wechat.php/text-t'
+    'REQUEST_TIME_FLOAT' => 1536047828.597
+    'REQUEST_TIME' => 1536047828
+]
+2018-09-04 15:59:14 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Missing argument 5 for wechat\components\template\Template::sendThreeJoin(), called in D:\_qiyo\_qingshe\trunk\woka\woka_wechat\controllers\TextTController.php on line 15 and defined' in D:\_qiyo\_qingshe\trunk\woka\woka_wechat\components\template\Template.php:20
+Stack trace:
+#0 D:\_qiyo\_qingshe\trunk\woka\woka_wechat\components\template\Template.php(20): yii\base\ErrorHandler->handleError(2, 'Missing argumen...', 'D:\\_qiyo\\_qings...', 20, Array)
+#1 D:\_qiyo\_qingshe\trunk\woka\woka_wechat\controllers\TextTController.php(15): wechat\components\template\Template->sendThreeJoin('oPSaK1ZxITRycWq...', 'goods', 3, 0.56)
+#2 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\Controller.php(220): wechat\controllers\TextTController->actions()
+#3 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\Controller.php(123): yii\base\Controller->createAction('')
+#4 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#5 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('text-t', Array)
+#6 D:\_qiyo\_qingshe\trunk\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\_qiyo\_qingshe\trunk\woka\web\wechat.php(18): yii\base\Application->run()
+#8 {main}
+2018-09-04 15:59:14 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '4922e975078e6076c9dc5b6a0eb3bcd76fa1295e889bf660fc0090cee86bd510a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ytroYWUYMQirkgEtdqHNVdYyJeEukMKw\";}'
+    'PHPSESSID' => 'hsiest0ekrcvg85qfvlmqgmc40'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'weyu.iqiyo.top'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=4922e975078e6076c9dc5b6a0eb3bcd76fa1295e889bf660fc0090cee86bd510a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ytroYWUYMQirkgEtdqHNVdYyJeEukMKw%22%3B%7D; PHPSESSID=hsiest0ekrcvg85qfvlmqgmc40'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Job\\php5.5;D:\\Job\\php5.5\\ext;D:\\Job\\mysql5\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;D:\\Node\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\Jason\\Java\\jdk1.8.0_181\\bin;E:\\Jason\\Java\\jdk1.8.0_181\\jre\\bin;C:\\Users\\Lussen\\AppData\\Roaming\\npm;C:\\Users\\Lussen\\AppData\\Local\\Programs\\Fiddler'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'weyu.iqiyo.top'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/_qiyo/_qingshe/trunk/woka/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/_qiyo/_qingshe/trunk/woka/web'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'SCRIPT_FILENAME' => 'D:/_qiyo/_qingshe/trunk/woka/web/wechat.php'
+    'REMOTE_PORT' => '13343'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wechat.php/text-t'
+    'SCRIPT_NAME' => '/wechat.php'
+    'PATH_INFO' => '/text-t'
+    'PATH_TRANSLATED' => 'D:\\_qiyo\\_qingshe\\trunk\\woka\\web\\text-t'
+    'PHP_SELF' => '/wechat.php/text-t'
+    'REQUEST_TIME_FLOAT' => 1536047954.816
+    'REQUEST_TIME' => 1536047954
+]
+2018-09-04 16:59:37 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined method wokaextend\wechat\AccessToken::getWAccessToken()' in D:\_qiyo\_qingshe\trunk\woka\wokaextend\wechat\templatemessage.php:53
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-09-04 16:59:37 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '4922e975078e6076c9dc5b6a0eb3bcd76fa1295e889bf660fc0090cee86bd510a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ytroYWUYMQirkgEtdqHNVdYyJeEukMKw\";}'
+    'PHPSESSID' => 'hsiest0ekrcvg85qfvlmqgmc40'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'weyu.iqiyo.top'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=4922e975078e6076c9dc5b6a0eb3bcd76fa1295e889bf660fc0090cee86bd510a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ytroYWUYMQirkgEtdqHNVdYyJeEukMKw%22%3B%7D; PHPSESSID=hsiest0ekrcvg85qfvlmqgmc40'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Job\\php5.5;D:\\Job\\php5.5\\ext;D:\\Job\\mysql5\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;D:\\Node\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\Jason\\Java\\jdk1.8.0_181\\bin;E:\\Jason\\Java\\jdk1.8.0_181\\jre\\bin;C:\\Users\\Lussen\\AppData\\Roaming\\npm;C:\\Users\\Lussen\\AppData\\Local\\Programs\\Fiddler'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'weyu.iqiyo.top'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/_qiyo/_qingshe/trunk/woka/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/_qiyo/_qingshe/trunk/woka/web'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'SCRIPT_FILENAME' => 'D:/_qiyo/_qingshe/trunk/woka/web/wechat.php'
+    'REMOTE_PORT' => '19667'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wechat.php/text-t'
+    'SCRIPT_NAME' => '/wechat.php'
+    'PATH_INFO' => '/text-t'
+    'PATH_TRANSLATED' => 'D:\\_qiyo\\_qingshe\\trunk\\woka\\web\\text-t'
+    'PHP_SELF' => '/wechat.php/text-t'
+    'REQUEST_TIME_FLOAT' => 1536051577.835
+    'REQUEST_TIME' => 1536051577
+]
+2018-09-04 17:01:13 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined method wokaextend\wechat\AccessToken::getWAccessToken()' in D:\_qiyo\_qingshe\trunk\woka\wokaextend\wechat\templatemessage.php:53
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-09-04 17:01:13 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '4922e975078e6076c9dc5b6a0eb3bcd76fa1295e889bf660fc0090cee86bd510a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ytroYWUYMQirkgEtdqHNVdYyJeEukMKw\";}'
+    'PHPSESSID' => 'hsiest0ekrcvg85qfvlmqgmc40'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'weyu.iqiyo.top'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=4922e975078e6076c9dc5b6a0eb3bcd76fa1295e889bf660fc0090cee86bd510a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ytroYWUYMQirkgEtdqHNVdYyJeEukMKw%22%3B%7D; PHPSESSID=hsiest0ekrcvg85qfvlmqgmc40'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Job\\php5.5;D:\\Job\\php5.5\\ext;D:\\Job\\mysql5\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;D:\\Node\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\Jason\\Java\\jdk1.8.0_181\\bin;E:\\Jason\\Java\\jdk1.8.0_181\\jre\\bin;C:\\Users\\Lussen\\AppData\\Roaming\\npm;C:\\Users\\Lussen\\AppData\\Local\\Programs\\Fiddler'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'weyu.iqiyo.top'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/_qiyo/_qingshe/trunk/woka/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/_qiyo/_qingshe/trunk/woka/web'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'SCRIPT_FILENAME' => 'D:/_qiyo/_qingshe/trunk/woka/web/wechat.php'
+    'REMOTE_PORT' => '19830'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wechat.php/text-t'
+    'SCRIPT_NAME' => '/wechat.php'
+    'PATH_INFO' => '/text-t'
+    'PATH_TRANSLATED' => 'D:\\_qiyo\\_qingshe\\trunk\\woka\\web\\text-t'
+    'PHP_SELF' => '/wechat.php/text-t'
+    'REQUEST_TIME_FLOAT' => 1536051673.852
+    'REQUEST_TIME' => 1536051673
+]
+2018-09-04 17:01:14 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined method wokaextend\wechat\AccessToken::getWAccessToken()' in D:\_qiyo\_qingshe\trunk\woka\wokaextend\wechat\templatemessage.php:53
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-09-04 17:01:14 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '4922e975078e6076c9dc5b6a0eb3bcd76fa1295e889bf660fc0090cee86bd510a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ytroYWUYMQirkgEtdqHNVdYyJeEukMKw\";}'
+    'PHPSESSID' => 'hsiest0ekrcvg85qfvlmqgmc40'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'weyu.iqiyo.top'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=4922e975078e6076c9dc5b6a0eb3bcd76fa1295e889bf660fc0090cee86bd510a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ytroYWUYMQirkgEtdqHNVdYyJeEukMKw%22%3B%7D; PHPSESSID=hsiest0ekrcvg85qfvlmqgmc40'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Job\\php5.5;D:\\Job\\php5.5\\ext;D:\\Job\\mysql5\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;D:\\Node\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\Jason\\Java\\jdk1.8.0_181\\bin;E:\\Jason\\Java\\jdk1.8.0_181\\jre\\bin;C:\\Users\\Lussen\\AppData\\Roaming\\npm;C:\\Users\\Lussen\\AppData\\Local\\Programs\\Fiddler'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'weyu.iqiyo.top'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/_qiyo/_qingshe/trunk/woka/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/_qiyo/_qingshe/trunk/woka/web'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'SCRIPT_FILENAME' => 'D:/_qiyo/_qingshe/trunk/woka/web/wechat.php'
+    'REMOTE_PORT' => '19831'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wechat.php/text-t'
+    'SCRIPT_NAME' => '/wechat.php'
+    'PATH_INFO' => '/text-t'
+    'PATH_TRANSLATED' => 'D:\\_qiyo\\_qingshe\\trunk\\woka\\web\\text-t'
+    'PHP_SELF' => '/wechat.php/text-t'
+    'REQUEST_TIME_FLOAT' => 1536051674.681
+    'REQUEST_TIME' => 1536051674
+]
+2018-09-04 17:01:15 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined method wokaextend\wechat\AccessToken::getWAccessToken()' in D:\_qiyo\_qingshe\trunk\woka\wokaextend\wechat\templatemessage.php:53
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-09-04 17:01:15 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '4922e975078e6076c9dc5b6a0eb3bcd76fa1295e889bf660fc0090cee86bd510a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ytroYWUYMQirkgEtdqHNVdYyJeEukMKw\";}'
+    'PHPSESSID' => 'hsiest0ekrcvg85qfvlmqgmc40'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'weyu.iqiyo.top'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=4922e975078e6076c9dc5b6a0eb3bcd76fa1295e889bf660fc0090cee86bd510a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ytroYWUYMQirkgEtdqHNVdYyJeEukMKw%22%3B%7D; PHPSESSID=hsiest0ekrcvg85qfvlmqgmc40'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Job\\php5.5;D:\\Job\\php5.5\\ext;D:\\Job\\mysql5\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;D:\\Node\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\Jason\\Java\\jdk1.8.0_181\\bin;E:\\Jason\\Java\\jdk1.8.0_181\\jre\\bin;C:\\Users\\Lussen\\AppData\\Roaming\\npm;C:\\Users\\Lussen\\AppData\\Local\\Programs\\Fiddler'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'weyu.iqiyo.top'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/_qiyo/_qingshe/trunk/woka/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/_qiyo/_qingshe/trunk/woka/web'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'SCRIPT_FILENAME' => 'D:/_qiyo/_qingshe/trunk/woka/web/wechat.php'
+    'REMOTE_PORT' => '19832'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wechat.php/text-t'
+    'SCRIPT_NAME' => '/wechat.php'
+    'PATH_INFO' => '/text-t'
+    'PATH_TRANSLATED' => 'D:\\_qiyo\\_qingshe\\trunk\\woka\\web\\text-t'
+    'PHP_SELF' => '/wechat.php/text-t'
+    'REQUEST_TIME_FLOAT' => 1536051675.435
+    'REQUEST_TIME' => 1536051675
+]
+2018-09-04 17:01:15 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined method wokaextend\wechat\AccessToken::getWAccessToken()' in D:\_qiyo\_qingshe\trunk\woka\wokaextend\wechat\templatemessage.php:53
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-09-04 17:01:15 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '4922e975078e6076c9dc5b6a0eb3bcd76fa1295e889bf660fc0090cee86bd510a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ytroYWUYMQirkgEtdqHNVdYyJeEukMKw\";}'
+    'PHPSESSID' => 'hsiest0ekrcvg85qfvlmqgmc40'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'weyu.iqiyo.top'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=4922e975078e6076c9dc5b6a0eb3bcd76fa1295e889bf660fc0090cee86bd510a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ytroYWUYMQirkgEtdqHNVdYyJeEukMKw%22%3B%7D; PHPSESSID=hsiest0ekrcvg85qfvlmqgmc40'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Job\\php5.5;D:\\Job\\php5.5\\ext;D:\\Job\\mysql5\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;D:\\Node\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\Jason\\Java\\jdk1.8.0_181\\bin;E:\\Jason\\Java\\jdk1.8.0_181\\jre\\bin;C:\\Users\\Lussen\\AppData\\Roaming\\npm;C:\\Users\\Lussen\\AppData\\Local\\Programs\\Fiddler'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'weyu.iqiyo.top'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/_qiyo/_qingshe/trunk/woka/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/_qiyo/_qingshe/trunk/woka/web'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'SCRIPT_FILENAME' => 'D:/_qiyo/_qingshe/trunk/woka/web/wechat.php'
+    'REMOTE_PORT' => '19836'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wechat.php/text-t'
+    'SCRIPT_NAME' => '/wechat.php'
+    'PATH_INFO' => '/text-t'
+    'PATH_TRANSLATED' => 'D:\\_qiyo\\_qingshe\\trunk\\woka\\web\\text-t'
+    'PHP_SELF' => '/wechat.php/text-t'
+    'REQUEST_TIME_FLOAT' => 1536051675.742
+    'REQUEST_TIME' => 1536051675
+]
+2018-09-04 17:01:16 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined method wokaextend\wechat\AccessToken::getWAccessToken()' in D:\_qiyo\_qingshe\trunk\woka\wokaextend\wechat\templatemessage.php:53
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-09-04 17:01:16 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '4922e975078e6076c9dc5b6a0eb3bcd76fa1295e889bf660fc0090cee86bd510a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ytroYWUYMQirkgEtdqHNVdYyJeEukMKw\";}'
+    'PHPSESSID' => 'hsiest0ekrcvg85qfvlmqgmc40'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'weyu.iqiyo.top'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=4922e975078e6076c9dc5b6a0eb3bcd76fa1295e889bf660fc0090cee86bd510a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ytroYWUYMQirkgEtdqHNVdYyJeEukMKw%22%3B%7D; PHPSESSID=hsiest0ekrcvg85qfvlmqgmc40'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Job\\php5.5;D:\\Job\\php5.5\\ext;D:\\Job\\mysql5\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;D:\\Node\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\Jason\\Java\\jdk1.8.0_181\\bin;E:\\Jason\\Java\\jdk1.8.0_181\\jre\\bin;C:\\Users\\Lussen\\AppData\\Roaming\\npm;C:\\Users\\Lussen\\AppData\\Local\\Programs\\Fiddler'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'weyu.iqiyo.top'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/_qiyo/_qingshe/trunk/woka/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/_qiyo/_qingshe/trunk/woka/web'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'SCRIPT_FILENAME' => 'D:/_qiyo/_qingshe/trunk/woka/web/wechat.php'
+    'REMOTE_PORT' => '19837'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wechat.php/text-t'
+    'SCRIPT_NAME' => '/wechat.php'
+    'PATH_INFO' => '/text-t'
+    'PATH_TRANSLATED' => 'D:\\_qiyo\\_qingshe\\trunk\\woka\\web\\text-t'
+    'PHP_SELF' => '/wechat.php/text-t'
+    'REQUEST_TIME_FLOAT' => 1536051675.982
+    'REQUEST_TIME' => 1536051675
+]
+2018-09-04 17:02:03 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined method wokaextend\wechat\AccessToken::getWAccessToken()' in D:\_qiyo\_qingshe\trunk\woka\wokaextend\wechat\templatemessage.php:53
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-09-04 17:02:03 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '4922e975078e6076c9dc5b6a0eb3bcd76fa1295e889bf660fc0090cee86bd510a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ytroYWUYMQirkgEtdqHNVdYyJeEukMKw\";}'
+    'PHPSESSID' => 'hsiest0ekrcvg85qfvlmqgmc40'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'weyu.iqiyo.top'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=4922e975078e6076c9dc5b6a0eb3bcd76fa1295e889bf660fc0090cee86bd510a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ytroYWUYMQirkgEtdqHNVdYyJeEukMKw%22%3B%7D; PHPSESSID=hsiest0ekrcvg85qfvlmqgmc40'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Job\\php5.5;D:\\Job\\php5.5\\ext;D:\\Job\\mysql5\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;D:\\Node\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\Jason\\Java\\jdk1.8.0_181\\bin;E:\\Jason\\Java\\jdk1.8.0_181\\jre\\bin;C:\\Users\\Lussen\\AppData\\Roaming\\npm;C:\\Users\\Lussen\\AppData\\Local\\Programs\\Fiddler'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'weyu.iqiyo.top'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/_qiyo/_qingshe/trunk/woka/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/_qiyo/_qingshe/trunk/woka/web'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'SCRIPT_FILENAME' => 'D:/_qiyo/_qingshe/trunk/woka/web/wechat.php'
+    'REMOTE_PORT' => '19917'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wechat.php/text-t'
+    'SCRIPT_NAME' => '/wechat.php'
+    'PATH_INFO' => '/text-t'
+    'PATH_TRANSLATED' => 'D:\\_qiyo\\_qingshe\\trunk\\woka\\web\\text-t'
+    'PHP_SELF' => '/wechat.php/text-t'
+    'REQUEST_TIME_FLOAT' => 1536051723.209
+    'REQUEST_TIME' => 1536051723
+]
