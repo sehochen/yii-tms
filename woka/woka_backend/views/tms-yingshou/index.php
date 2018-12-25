@@ -51,7 +51,11 @@ $this->params['breadcrumbs'][] = $this->title;
             // 'realdate',
             // 'reback',
 
-            [        'class' => 'yii\grid\ActionColumn',        'header' => '操作',        'template' => '{update}{delete}',      ],
+            [
+        'class' => 'yii\grid\ActionColumn',
+        'header' => '操作',
+        'template' => '{update}{delete}',
+      ],
         ],
     ]); ?>
 </div>

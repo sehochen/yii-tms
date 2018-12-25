@@ -7,7 +7,8 @@ use yii\grid\GridView;
 /* @var $searchModel common\models\project\suso\tms\SusoOrderSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Suso Orders';
+//$this->title = 'Suso Orders';
+$this->title = '对账列表';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="suso-order-index">
@@ -16,7 +17,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
-        <?= Html::a('Create Suso Order', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('创建对账列表', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
     <?= GridView::widget([
         'dataProvider' => $dataProvider,

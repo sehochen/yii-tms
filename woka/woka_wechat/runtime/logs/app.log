@@ -946,3 +946,96 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1536051723.209
     'REQUEST_TIME' => 1536051723
 ]
+2018-12-19 11:34:23 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: 页面未找到。 in E:\phpStudy\PHPTutorial\WWW\tms\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\tms\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\phpStudy\PHPTutorial\WWW\tms\woka\web\wechat.php(18): yii\base\Application->run()
+#2 {main}
+2018-12-19 11:34:23 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '5f4f412bd62faa9590ae7c444f7de176380852b9cc02ccc66de2cc53660f57e5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xqEdbBu1XPZAaeheWWJBK5PVwKiEXT_A\";}'
+    'PHPSESSID' => 'ghvs5qpqa08itrb8sj3i34ab04'
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Lussen\\AppData\\Roaming'
+    'CLASSPATH' => '.;E:\\Jason\\Java7\\jdk1.7.0_80\\lib;E:\\Jason\\Java7\\jdk1.7.0_80\\lib\\dt.jar;E:\\Jason\\Java7\\jdk1.7.0_80\\lib\\tools.jar'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LUSSEN-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Lussen'
+    'JAVA_HOME' => 'E:\\Jason\\Java7\\jdk1.7.0_80'
+    'LOCALAPPDATA' => 'C:\\Users\\Lussen\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LUSSEN-PC'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\Lussen\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Job\\php5.5;D:\\Job\\php5.5\\ext;D:\\Job\\mysql5\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;D:\\Node\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\Jason\\Java7\\jdk1.7.0_80\\bin;E:\\Jason\\Java7\\jdk1.7.0_80\\jre\\bin;D:\\wamp64\\bin\\php\\php7.0.10;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\Git\\cmd;C:\\Users\\Lussen\\AppData\\Roaming\\npm;C:\\Users\\Lussen\\AppData\\Local\\Programs\\Fiddler;C:\\Users\\Lussen\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\Lussen\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Lussen\\AppData\\Local\\Temp'
+    'TSMPATH' => 'C:\\Program Files\\ThinkPad\\UltraNav Utility'
+    'USERDOMAIN' => 'Lussen-PC'
+    'USERNAME' => 'Lussen'
+    'USERPROFILE' => 'C:\\Users\\Lussen'
+    'VS120COMNTOOLS' => 'D:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\Common7\\Tools\\'
+    'WEBKIT_IGNORE_SSL_ERRORS' => '1'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'HTTP_COOKIE' => '_csrf=5f4f412bd62faa9590ae7c444f7de176380852b9cc02ccc66de2cc53660f57e5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xqEdbBu1XPZAaeheWWJBK5PVwKiEXT_A%22%3B%7D; PHPSESSID=ghvs5qpqa08itrb8sj3i34ab04'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'yii-tms.com:5000'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'yii-tms.com'
+    'SERVER_PORT' => '5000'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'E:/phpStudy/PHPTutorial/WWW/tms/woka/web'
+    'DOCUMENT_URI' => '/wechat.php'
+    'REQUEST_URI' => '/wechat'
+    'SCRIPT_NAME' => '/wechat.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r='
+    'PATH_TRANSLATED' => 'E:/phpStudy/PHPTutorial/WWW/tms/woka/web'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => 'E:/phpStudy/PHPTutorial/WWW/tms/woka/web/wechat.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/wechat.php'
+    'REQUEST_TIME_FLOAT' => 1545190463.595
+    'REQUEST_TIME' => 1545190463
+]
